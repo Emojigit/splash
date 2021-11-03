@@ -1,7 +1,7 @@
 /**
  * Micro:Bit LED Test
  */
-//% color=#5C2D91 weight=101 icon="\1f4fa"
+//% color=#5C2D91 weight=101 icon="*"
 namespace splash {
     /**
      * tunnel style 3-step splash screen
