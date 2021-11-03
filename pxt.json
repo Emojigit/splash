@@ -8,8 +8,7 @@
     },
     "files": [
         "main.ts",
-        "README.md",
-        "test.ts"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
@@ -21,6 +20,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
-    "languageRestriction": "javascript-only"
+    "preferredEditor": "tsprj"
 }
