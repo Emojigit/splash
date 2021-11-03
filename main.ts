@@ -8,6 +8,7 @@ namespace splash {
      */
     //% blockId=splash_tunnel block="Tunnel Splash Screen"
     export function tunnel() {
+        led.setBrightness(255)
         basic.clearScreen()
         basic.showLeds(`
             # # # # #
@@ -40,6 +41,7 @@ namespace splash {
      */
     //% blockId=splash_lit block="One-by-one lit Splash Screen"
     export function lit() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let y = 0; y < 5; y++) {
             for (let x = 0; x < 5; x++) {
@@ -55,6 +57,7 @@ namespace splash {
      */
     //% blockId=splash_fadein block="Fade in Splash Screen"
     export function lit_fadein() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let y = 0; y < 5; y++) {
             for (let x = 0; x < 5; x++) {
@@ -73,6 +76,7 @@ namespace splash {
      */
     //% blockId=splash_fadeout block="Fade out Splash Screen"
     export function lit_fadeout() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let y = 0; y < 5; y++) {
             for (let x = 0; x < 5; x++) {
@@ -91,6 +95,7 @@ namespace splash {
      */
     //% blockId=splash_from_top block="Lit from top Splash Screen"
     export function from_top() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let y = 0; y < 5; y++) {
             for (let x = 0; x < 5; x++) {
@@ -106,6 +111,7 @@ namespace splash {
      */
     //% blockId=splash_from_bottom block="Lit from bottom Splash Screen"
     export function from_bottom() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let y = 0; y < 5; y++) {
             for (let x = 5; x > -1; x--) {
@@ -121,6 +127,7 @@ namespace splash {
      */
     //% blockId=splash_from_left block="Lit from left Splash Screen"
     export function from_left() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let x = 0; x < 5; x++) {
             for (let y = 0; y < 5; y++) {
@@ -136,6 +143,7 @@ namespace splash {
      */
     //% blockId=splash_from_right block="Lit from right Splash Screen"
     export function from_right() {
+        led.setBrightness(255)
         basic.clearScreen()
         for (let x = 5; x > -1; x--) {
             for (let y = 0; y < 5; y++) {
